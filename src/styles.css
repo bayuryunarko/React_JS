@@ -140,7 +140,7 @@ body {
 
 .todo-text {
   font-family: "homemade apple", sans-serif;
-  font-size: 24px;
+  font-size: 12px;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
