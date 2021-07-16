@@ -3,17 +3,13 @@ import "./styles.css";
 
 import Paper from "./components/Paper";
 import Header from "./components/Header";
+import TodoForm from "./components/TodoForm";
 
 export default function App() {
   return (
     <Paper>
       <Header />
-      <section className="add">
-        <form action="" className="add-form">
-          <input type="text" className="add-input" />
-          <button className="add-btn">Add</button>
-        </form>
-      </section>
+      <TodoForm />
 
       <section className="todos">
         <div className="todo">
