@@ -27,7 +27,7 @@ body {
   align-items: center;
 
   background-color: #2d2d2d;
-  height: 100vh;
+  height: auto;
 }
 
 .container {

@@ -16,15 +16,11 @@ const Todos = () => {
     },
     {
       text: "Belajar React 4"
-    },
-    {
-      text: "Belajar React 5"
     }
   ];
 
   return (
     <section className="todos">
-      {/* <Todo text="Belajar Props di React" /> */}
       {Todos.map((todo) => {
         return <Todo text={todo.text} />;
       })}
